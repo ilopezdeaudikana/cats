@@ -1,0 +1,33 @@
+.nav-list {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: block;
+  background: #ccc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-item {
+  display: inline-block;
+  margin: 0;
+  padding: 15px;
+  cursor: pointer;
+}
+.nav-item:hover {
+  background-color: #fff;
+}
+.nav-link {
+  color: #000;
+  text-transform: capitalize;
+}
+.nav-link:hover {
+  color: #ff00ff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.nav-link.active {
+  color: #ff00ff;
+}
+.nav-link.active :hover {
+  color: #ccc;
+}

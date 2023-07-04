@@ -1,0 +1,23 @@
+.pagination-list {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+.pagination-link {
+  margin: 0 15px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+.pagination-link {
+  color: #ccc;
+  font-weight: 600;
+}
+.pagination-link:hover {
+  color: #000;
+}

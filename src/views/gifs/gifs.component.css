@@ -1,0 +1,16 @@
+/*@import '../scss/variables.scss';*/
+
+.gifs {
+  margin:0 5%;
+  padding: 2% 1%;
+  overflow: auto;
+  width: 88%;
+  text-align: center;
+  position: relative;
+}
+
+.gif {
+  	margin: 0 10px 0 0; 
+  	display: inline-block;
+	  cursor: pointer;
+  }
