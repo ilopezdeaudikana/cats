@@ -1,6 +1,11 @@
 # Cats
+Single Page JavaScript Application to display GIF results from Giphy's developer API https://github.com/giphy/GiphyAPI.
+The requirements were:
+- A control to show latest Cats or Dog results (tabs).
+- A lightbox which shows the selected GIF when clicked/hovered/interacted with.
+- Results view with paging of 25 GIFs per page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The stack I used for this one is `React`, `Typescript`, `React hooks`, `Redux toolkit`, `Sagas` and `Jest`.
 
 ## Available Scripts
 
